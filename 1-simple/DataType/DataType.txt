@@ -1,0 +1,40 @@
+Data Type{
+    A_Primitive{
+        1_Boolean{
+            boolean
+        }
+        2_Numeric{
+            i_Character{
+                char
+            }
+            ii_Integral{
+                a_Integer{
+                    byte
+                    short
+                    int 
+                    long
+                }
+                b_Floating-poing{
+                    float 
+                    double
+                }
+            }
+        }
+    }
+
+    B_Non-Primitive{
+        1_String
+        2_Array
+        3_etc
+    }
+}
+
+
+boolean test = false; //boolean
+char beta = 'A'; //char
+byte a=10, byte b = -20; //byte
+short s = 10000, short r = -50000; //short
+int a = 100000, int b = -200000; //int
+long a = 100000L, long b = -200000; //long
+float a = 234.5f; //float
+double a = 12.3; //double
